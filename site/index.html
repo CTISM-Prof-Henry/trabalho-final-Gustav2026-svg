@@ -1,34 +1,48 @@
-html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> <!-- Define acentos e caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta o site ao tamanho da tela do celular -->
     <title>Histórias de Guerra</title>
+    <link rel="stylesheet" href="css/index.css"> <!-- Conecta seu arquivo de estilo CSS -->
 </head>
 <body>
 
-    <header>
-        <h1>Histórias de Guerra</h1>
-        <p><em>Porque a história do homem é a história de suas guerras.</em></p>
-    </header>
+<!-- Player de áudio com controles visíveis -->
+<audio id="musicaTema" src="audio/Battlefield_theme.mp3" autoplay controls></audio>
 
-    <main>
-        <section id="bataan">
-            <h2>Bataan</h2>
-            <p>Sempre muito pouco, sempre muito tarde</p>
-        </section>
+<header>
+    <h1>SEGUNDA GUERRA MUNDIAL</h1> <!-- Título Principal -->
+    <p><em><strong>O Que a História Esqueceu: Crônicas Ocultas da Grande Guerra</strong></em></p> <!-- Subtítulo -->
+</header>
 
-        <section id="kelibia-point">
-            <h2>A Batalha de Kelibia Point</h2>
-            <p>O ataque mais imprudente da história.</p>
-        </section>
+<main> <!-- O "Main" é o container que o CSS usará para criar as 2 colunas -->
 
-         <section id="Dien Bien Phu">
-            <h2>Dien Bien Phu</h2>
-            <p>A França perde seu império</p>
-        </section>
-    </main>
+    <section id="bataan">
+        <h2>Pearl Harbor e Bataan</h2>
+        <h3>Sempre muito pouco, sempre muito tarde!</h3>
+        <a href="Pearl%20Harbor%20e%20Bataan.html" target="_blank">
+            <img src="images/Pearl_Harbor_Bataan/bataan03.jpg" alt="Monumento em Bataan">
+        </a>
+    </section>
+
+    <section id="kelibia-Point">
+        <h2>A Batalha de Kelibia Point</h2>
+        <h3>Sob a imposição do dever!</h3>
+        <a href="Kelibia%20Point.html" target="_blank">
+            <img src="images/kelibia%20point/A_lancha.jpg" alt="Lanchas Heróicas">
+        </a>
+    </section>
+
+    <section id="Alerta-Torpedo">
+        <h2>Alerta, Torpedo</h2>
+        <h3>Agonia e Coragem sob o Céu do Pacífico!</h3>
+        <a href="Alerta-Torpedo!.html" target="_blank">
+            <img src="images/torpedo/Prince_of_Walles_cor.jpg" alt="O Encouraçado">
+        </a>
+    </section>
+
+</main> <!-- Fim do container de colunas -->
 
 </body>
 </html>
