@@ -1,0 +1,49 @@
+.titulo-secao {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+h1 {
+    color: #3D2F23;
+    font: bold 36px "Trebuchet MS", Verdana, Geneva, sans-serif;
+}
+
+h1 {
+    color: #3D2F23;
+    font: bold 36px "Trebuchet MS", Verdana, Geneva, sans-serif;
+}
+
+h3{
+    color:#3D2F23;
+
+}
+.foto-artigo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.meu-botao {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.grade-artigos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 30px;
+
+}
