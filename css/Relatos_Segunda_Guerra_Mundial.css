@@ -1,0 +1,43 @@
+body {
+    background-image: url("https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/dday3.webp?w=1450&h=816"); /* COLOQUE O CAMINHO DA SUA IMAGEM AQUI */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+    font: 18px/1.8 "Lucida Grande", Helvetica, Arial, sans-serif;
+    color: #2A2421;
+}
+
+.quadro-conteudo {
+    border: 2px solid #2A2421;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 30px auto;
+    width: 96%;
+    max-width: 1000px;
+    background-color: rgba(232, 220, 184, 1) !important;
+    position: relative;
+    z-index: 5;
+    text-align: justify;
+}
+blockquote {
+    color: black;
+}
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: Arial, Tahoma;
+    font-weight: bold;
+    background-color: #66717A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: white;
+    color: darkgreen;
+}
