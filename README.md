@@ -12,16 +12,16 @@ O projeto deve ser publicado no **GitHub Pages** e apresentado em aula para o pr
 
 ## 📌 Checklist
 
-* [ ] meu site tem pelo menos um arquivo do tipo `.html` 
-* [ ] estou usando CSS externo, em um arquivo separado `.css`
+* [x ] meu site tem pelo menos um arquivo do tipo `.html` 
+* [x ] estou usando CSS externo, em um arquivo separado `.css`
 * [ ] estou usando Javascript externo, em um arquivo separado `.js`
-* [ ] os arquivos do meu site estão na pasta `site`
-* [ ] a pasta `site` tem um arquivo `index.html`, que é a página inicial do meu site; sem esse arquivo, o GitHub Pages 
+* [ x] os arquivos do meu site estão na pasta `site`
+* [x ] a pasta `site` tem um arquivo `index.html`, que é a página inicial do meu site; sem esse arquivo, o GitHub Pages 
       não vai funcionar
-* [ ] estou ciente que, se eu modificar ou excluir arquivos que não estejam na pasta `site` 
+* [ x] estou ciente que, se eu modificar ou excluir arquivos que não estejam na pasta `site` 
       (por exemplo, `.github` ou `README.md`), isso pode afetar o funcionamento do meu site
-* [ ] respondi todas as perguntas e preenchi todos os checkboxes abaixo
-* [ ] meu site está hospedado no GitHub Pages, no link `<escreva aqui o link do seu site>`
+* [ x] respondi todas as perguntas e preenchi todos os checkboxes abaixo
+* [ x] meu site está hospedado no GitHub Pages, no link `[<escreva aqui o link do seu site>](https://ctism-prof-henry.github.io/trabalho-final-Gustav2026-svg/)`
 
 ## 📖 Descrição do projeto
 
@@ -51,28 +51,28 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 
 #### Estrutura básica
 
-- [ ] `<!DOCTYPE html>`
-- [ ] `<html>`
-- [ ] `<head>`
-- [ ] `<title>`
-- [ ] `<body>`
+- [ x] `<!DOCTYPE html>`
+- [x ] `<html>`
+- [x ] `<head>`
+- [ x] `<title>`
+- [x ] `<body>`
 
 #### Estrutura semântica
 
-- [ ] `<header>`
+- [ x] `<header>`
 - [ ] `<nav>`
-- [ ] `<main>`
-- [ ] `<section>`
-- [ ] `<article>`
+- [x ] `<main>`
+- [x ] `<section>`
+- [ x] `<article>`
 - [ ] `<aside>`
-- [ ] `<footer>`
+- [x ] `<footer>`
 
 #### Conteúdo
 
-- [ ] Títulos (`h1`, `h2`, `h3`, etc.)
-- [ ] Parágrafos (`p`)
-- [ ] Imagens (`img`)
-- [ ] Links (`a`)
+- [ x] Títulos (`h1`, `h2`, `h3`, etc.)
+- [x ] Parágrafos (`p`)
+- [ x] Imagens (`img`)
+- [ x] Links (`a`)
 - [ ] Listas:
   - [ ] `ul`
   - [ ] `ol`
@@ -83,19 +83,19 @@ Marque com `[x]` os elementos que **foram implementados no seu site**. Você nã
 - [ ] `<input>`
 - [ ] `<label>`
 - [ ] `<textarea>`
-- [ ] `<button>`
+- [xx ] `<button>`
 
 ### 🎨 CSS
 
 - Seletor de...
-  - [ ] Classes (`.classe`)
+  - [ x] Classes (`.classe`)
   - [ ] IDs (`#id`)
   - [ ] pseudoclasse (`#a::hover`)
-- [ ] Cores
+- [ x] Cores
 - [ ] Tipografia (e.g. `font-family`)
-- [ ] Margem e padding
+- [ x] Margem e padding
 - [ ] Layout com `flexbox`
-- [ ] Layout com `grid`
+- [x ] Layout com `grid`
 - [ ] Responsividade (`media queries`)
 - [ ] Animações ou transições
 
